@@ -1,0 +1,27 @@
+{
+  "name": "post_processing_server",
+  "version": "1.0.0",
+  "description": "Server does image analysis",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Roman Olshanskiy",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.1.0",
+    "aws-sdk": "^2.601.0",
+    "crc": "^3.8.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.0.0",
+    "mongojs": "^3.1.0",
+    "multer": "^1.4.2",
+    "request": "^2.88.0"
+  }
+}

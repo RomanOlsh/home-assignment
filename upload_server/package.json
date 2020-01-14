@@ -1,0 +1,25 @@
+{
+  "name": "upload_server",
+  "version": "1.0.0",
+  "description": "Uploads 5 jpeg images and 2 json files in one bulk to s3 or local starage",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Roman Olshanskiy",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.601.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongojs": "^3.1.0",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "uuid": "^3.3.3"
+  }
+}
